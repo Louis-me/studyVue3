@@ -1,0 +1,28 @@
+# Logs
+vue-project/logs
+vue-project/*.log
+vue-project/npm-debug.log*
+vue-project/yarn-debug.log*
+vue-project/yarn-error.log*
+vue-project/pnpm-debug.log*
+vue-project/lerna-debug.log*
+
+vue-project/node_modules
+vue-project/.DS_Store
+vue-project/dist
+vue-projectdist-ssr
+vue-project/coverage
+vue-project/*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vue-project/vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
