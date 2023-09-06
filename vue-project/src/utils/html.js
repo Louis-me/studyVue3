@@ -68,4 +68,6 @@ export const GraptReportTask = (params) => ajax.get('/report_task/', {params})
 export const GraptTop10Show = (params) => ajax.get('/reports_top_10_slow/', {params})
 export const GraptTop10ShowExport = () => ajax.get('/reports_top_slow_export/', {responseType: 'blob' }, )
 
-//reports_top_slow_export
+//服务器日志
+export const LogsGet = () => ajax.get('/logs/' )
+export const LogContontPost = (params) => ajax.post('/log_content/', params)

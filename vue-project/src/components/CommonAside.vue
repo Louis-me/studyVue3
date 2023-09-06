@@ -42,7 +42,15 @@
                    <el-menu-item index="/Report">报告列表</el-menu-item>
                    <el-menu-item index="/GrapReport">图形报告</el-menu-item>
                </el-sub-menu>
-              
+               <el-sub-menu index="5">
+                 <template #title>
+                   <el-icon>
+                     <Menu />
+                   </el-icon>
+                   <span>日志管理</span>
+                 </template>
+                   <el-menu-item index="/ServerLog">日志列表</el-menu-item>
+               </el-sub-menu>
    </el-menu>
  </template>
  

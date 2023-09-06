@@ -18,6 +18,7 @@ import TimingTaskView from "../components/home/son/task/timingTaskView.vue"
 import Report from "../components/home/son/report/report.vue"
 import ReportView from "../components/home/son/report/reportView.vue"
 import GrapReport from "../components/home/son/report/graphReport.vue"
+import ServerLog from "../components/home/son/log/log.vue"
 const routes = [
     {
         name: "login",
@@ -99,6 +100,11 @@ const routes = [
                 path: '/GrapReport',
                 name: 'GrapReport',
                 component: GrapReport, 
+              },
+              {
+                path: '/ServerLog',
+                name: 'ServerLog',
+                component: ServerLog, 
               },
         ]
     },
