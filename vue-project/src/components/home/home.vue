@@ -18,11 +18,11 @@
 </template>
 
 <script>
-import CommonAside1 from "../../components/CommonAside.vue";
+import CommonAside from "../../components/CommonAside.vue";
 import CommonHeader from "../../components/CommonHeader.vue";
 export default {
   components: {
-    CommonAside1,
+    CommonAside,
       CommonHeader
   }
 }

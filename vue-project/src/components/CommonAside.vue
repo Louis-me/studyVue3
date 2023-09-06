@@ -6,20 +6,41 @@
                    <el-icon>
                      <Menu />
                    </el-icon>
-                   <span>用户管理</span>
+                   <span>用例管理</span>
                  </template>
-                   <el-menu-item index="/son1">用户列表</el-menu-item>
-                   <el-menu-item index="/son2">角色列表</el-menu-item>
+                  <el-menu-item index="/case">用例管理</el-menu-item>
+                   <el-menu-item index="/suite">套件管理</el-menu-item>
+                   <el-menu-item index="/fuzz">模糊用例规则</el-menu-item>
                </el-sub-menu>
                <el-sub-menu index="2">
                  <template #title>
                    <el-icon>
                      <Menu />
                    </el-icon>
-                   <span>商品管理</span>
+                   <span>配置管理</span>
                  </template>
-                   <el-menu-item index="/order">订单管理</el-menu-item>
-                   <el-menu-item index="/son3">套件管理</el-menu-item>
+                   <el-menu-item index="/ApiLogin">登录配置</el-menu-item>
+                   <el-menu-item index="/ApiTest">单接口测试</el-menu-item>
+               </el-sub-menu>
+               <el-sub-menu index="3">
+                 <template #title>
+                   <el-icon>
+                     <Menu />
+                   </el-icon>
+                   <span>任务管理</span>
+                 </template>
+                   <el-menu-item index="/RealTimeTask">实时任务管理</el-menu-item>
+                   <el-menu-item index="/TimingTask">定时任务管理</el-menu-item>
+               </el-sub-menu>
+               <el-sub-menu index="4">
+                 <template #title>
+                   <el-icon>
+                     <Menu />
+                   </el-icon>
+                   <span>报告管理</span>
+                 </template>
+                   <el-menu-item index="/Report">报告列表</el-menu-item>
+                   <el-menu-item index="/GrapReport">图形报告</el-menu-item>
                </el-sub-menu>
               
    </el-menu>

@@ -17,7 +17,7 @@ ajax.interceptors.response.use(
         }
 
       }
-      const headers = response.headers
+      // const headers = response.headers
 
       return response
     },

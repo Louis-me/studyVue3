@@ -9,13 +9,18 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "axios": "^1.4.0",
+    "echarts": "^5.4.3",
     "element-plus": "^2.3.9",
+    "json-editor-vue3": "^1.0.8",
     "pinia": "^2.1.6",
     "pinia-plugin-persist": "^1.0.0",
     "pinia-plugin-persistedstate": "^3.2.0",
+    "vite-plugin-commonjs": "^0.9.0",
     "vue": "^3.3.4",
+    "vue-json-viewer": "^3.0.4",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {

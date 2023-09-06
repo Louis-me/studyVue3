@@ -11,6 +11,7 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'  // 引入Element
 
 // import axios from './utils/ajax.js'
 // import './utils/ajax.js'
+import JsonViewer from 'vue-json-viewer'
 
 const app = createApp(App)
 // 引入Element Plus icon 所需
@@ -20,6 +21,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 
 app.use(ElementPlus)
 app.use(router)
+app.use(JsonViewer)
+
 app.mount('#app')
 
 // app.config.globalProperties.$axios=axios;  //配置axios的全局引用

@@ -1,5 +1,5 @@
 # 说明
- - Vue 3 in Vite的练习
+ - 此客户端是基于这个[项目](https://github.com/Louis-me/autoapiclient) 进行升级，主要采用Vue 3 in Vite
  - vue-project 为应用的目录
  ## 总结
 - 使用 `element-plus`

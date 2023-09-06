@@ -4,13 +4,20 @@
 import Login from '../components/Login.vue'
 
 import Home from '../components/home/home.vue'
-import son1 from '../components/home/son/son1.vue'
-import son2 from '../components/home/son/son2.vue'
-import son3 from '../components/home/son/son3.vue'
+import suite from '../components/home/son/suite/suite.vue'
+import case1 from '../components/home/son/case/case.vue'
 import order from '../components/home/son/order.vue'
-
 import welcome from '../components/welcome.vue'
-
+import fuzz from "../components/home/son/fuzz/fuzz.vue"
+import ApiLogin from "../components/home/son/api/login.vue"
+import ApiTest from "../components/home/son/api/test.vue"
+import RealTimeTask from "../components/home/son/task/realTime.vue"
+import RealtimeView from "../components/home/son/task/realTimeView.vue"
+import TimingTask from "../components/home/son/task/timingTask.vue"
+import TimingTaskView from "../components/home/son/task/timingTaskView.vue"
+import Report from "../components/home/son/report/report.vue"
+import ReportView from "../components/home/son/report/reportView.vue"
+import GrapReport from "../components/home/son/report/graphReport.vue"
 const routes = [
     {
         name: "login",
@@ -29,21 +36,70 @@ const routes = [
               
             },
             {
-                path: '/son1',//默认显示页路径
-                name: 'son1',
-                component: son1, 
+                path: '/suite',
+                name: 'suite',
+                component: suite, 
               },
               {
-                path: '/son2',
-                name: 'son2',
-                component: son2, 
+                path: '/case',
+                name: 'case',
+                component: case1, 
               },
               {
                 path: '/order',
                 name: 'order',
                 component: order, 
               },
-
+              {
+                path: '/fuzz',
+                name: 'fuzz',
+                component: fuzz, 
+              },
+              {
+                path: '/ApiLogin',
+                name: 'ApiLogin',
+                component: ApiLogin, 
+              },
+              {
+                path: '/ApiTest',
+                name: 'ApiTest',
+                component: ApiTest, 
+              },
+              {
+                path: '/RealTimeTask',
+                name: 'RealTimeTask',
+                component: RealTimeTask, 
+              },
+              {
+                path: '/RealtimeView/:id',
+                name: 'RealtimeView',
+                component: RealtimeView, 
+              },
+              {
+                path: '/TimingTask:',
+                name: 'TimingTask',
+                component: TimingTask, 
+              },
+              {
+                path: '/TimingTaskView/:id',
+                name: 'TimingTaskView',
+                component: TimingTaskView, 
+              },
+              {
+                path: '/Report',
+                name: 'Report',
+                component: Report, 
+              },
+              {
+                path: '/ReportView/:id',
+                name: 'ReportView',
+                component: ReportView, 
+              },
+              {
+                path: '/GrapReport',
+                name: 'GrapReport',
+                component: GrapReport, 
+              },
         ]
     },
 
